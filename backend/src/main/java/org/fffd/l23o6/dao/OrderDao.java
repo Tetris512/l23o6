@@ -11,5 +11,5 @@ public interface OrderDao extends JpaRepository<OrderEntity, Long>{
 
     List<OrderEntity> findByArrivalStationId(Long dsvsdvsd);
 
-    List<OrderEntity> findAllById(Long id);
+    List<OrderEntity> findAllById(Long iddddd);
 }
