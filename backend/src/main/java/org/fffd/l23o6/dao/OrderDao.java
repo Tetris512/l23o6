@@ -8,5 +8,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface OrderDao extends JpaRepository<OrderEntity, Long>{
     List<OrderEntity> findByUserId(Long userId);
 
-    List<OrderEntity> findByArrivalStationId(Long userId);
 }
